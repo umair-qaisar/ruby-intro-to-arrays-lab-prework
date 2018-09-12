@@ -14,6 +14,6 @@ def first_element (ed_de)
 end
 
 def third_element (de_ed)
-  my_third_element = de_ed [0]
+  my_third_element = de_ed [2]
   return my_third_element
 end
