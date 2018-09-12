@@ -1,12 +1,14 @@
 def instantiate_new_array()
-  array = []
+  new_array = array.new
+  return new_array
 end
 
 def array_with_two_elements()
-  array=["1","2"]
+  new_array= array.new(2)
+  return new_array
 end
 
-def first_element()
-  array=["1","2"]
-  array(0)
+def first_element(hello_sir)
+  my_first_element = hello_sir [0]
+  return my_first_element
 end
