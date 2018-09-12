@@ -12,3 +12,8 @@ def first_element (ed_de)
   my_first_element = ed_de [0]
   return my_first_element
 end
+
+def third_element (de_ed)
+  my_third_element = de_ed [0]
+  return my_first_element
+end
